@@ -10,20 +10,20 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time) {
-  consle.log("Enter time in HH:MM Format");
+  console.log("Enter time in HH:MM Format");
   let timeMessage = time.split(":");
   if (parseInt(timeMessage [0]) < 12) {
-  consle.log(("Good Morning");
+  console.log(("Good Morning");
   } 
   else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 17{
-  consle.log( "Good Afternoon");
+ console.log( "Good Afternoon");
   } 
   else if (parseInt(timeMessage [0]) >= 17{
-     consle.log("Good Evening");
+     console.log("Good Evening");
   }
 }
 
-
+console
 
 
 /* Write your implementation of displayMessage() */
