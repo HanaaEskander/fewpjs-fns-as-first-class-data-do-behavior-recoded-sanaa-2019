@@ -9,13 +9,14 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(timeString) {
-  let msg = timeString.split(":");
-  if (parseInt(msg[0]) < 12) {
+function greet(time) {
+  consle.log("Enter time in HH:MM Format");
+  let timeMessage = time.split(":");
+  if (parseInt(timeMessage [0]) < 12) {
     return "Good Morning";
-  } else if (parseInt(msg[0]) >= 12 && parseInt(msg[0]) < 17) {
+  } else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 17) {
     return "Good Afternoon";
-  } else if (parseInt(msg[0]) >= 17) {
+  } else if (parseInt(timeMessage [0]) >= 17) {
     return "Good Evening";
   }
 }
