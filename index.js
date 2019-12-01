@@ -14,12 +14,15 @@ function greet(time) {
   let timeMessage = time.split(":");
   if (parseInt(timeMessage [0]) < 12) {
     return "Good Morning";
-  } else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 17) {
+  } 
+  else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 5) {
     return "Good Afternoon";
-  } else if (parseInt(timeMessage [0]) >= 17) {
+  } 
+  else if (parseInt(timeMessage [0]) >= 5) {
     return "Good Evening";
   }
 }
+
 
 
 
