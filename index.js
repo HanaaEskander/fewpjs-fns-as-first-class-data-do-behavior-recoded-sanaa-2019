@@ -13,13 +13,13 @@ function greet(time) {
   consle.log("Enter time in HH:MM Format");
   let timeMessage = time.split(":");
   if (parseInt(timeMessage [0]) < 12) {
-    return "Good Morning";
+   consle.log("Good Morning");
   } 
   else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 5) {
-    return "Good Afternoon";
+  consle.log( "Good Afternoon");
   } 
   else if (parseInt(timeMessage [0]) >= 5) {
-    return "Good Evening";
+     consle.log("Good Evening");
   }
 }
 
@@ -27,6 +27,6 @@ function greet(time) {
 
 
 /* Write your implementation of displayMessage() */
-function displayMessage(greet) {
+function displayMessage(greet='') {
   document.querySelector("h1#greeting").innerText = greet;
 }
