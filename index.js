@@ -9,7 +9,16 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-
+function greet(timeString) {
+  let msg = timeString.split(":");
+  if (parseInt(msg[0]) < 12) {
+    return "Good Morning";
+  } else if (parseInt(msg[0]) >= 12 && parseInt(msg[0]) < 17) {
+    return "Good Afternoon";
+  } else if (parseInt(msg[0]) >= 17) {
+    return "Good Evening";
+  }
+}
 
 
 
