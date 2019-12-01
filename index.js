@@ -27,3 +27,6 @@ function greet(time) {
 
 
 /* Write your implementation of displayMessage() */
+function displayMessage(greetFn='Text') {
+  document.querySelector("h1#greeting").innerText = greetFn;
+}
