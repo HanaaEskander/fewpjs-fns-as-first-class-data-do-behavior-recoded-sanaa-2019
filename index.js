@@ -13,12 +13,12 @@ function greet(time) {
   consle.log("Enter time in HH:MM Format");
   let timeMessage = time.split(":");
   if (parseInt(timeMessage [0]) < 12) {
-   consle.log("Good Morning");
+  consle.log(("Good Morning");
   } 
-  else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 5) {
+  else if (parseInt(timeMessage [0]) >= 12 && parseInt(msg[0]) < 17{
   consle.log( "Good Afternoon");
   } 
-  else if (parseInt(timeMessage [0]) >= 5) {
+  else if (parseInt(timeMessage [0]) >= 17{
      consle.log("Good Evening");
   }
 }
